@@ -1,0 +1,53 @@
+.footer {
+    background-color: #37476a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.heart {
+    color: #ffb6c1;
+}
+
+.instagram {
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.links {
+    margin: 15px 0;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.linkedinIcon {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.copyright {
+    font-size: 14px;
+    opacity: 0.8;
+}
