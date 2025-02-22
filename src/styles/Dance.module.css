@@ -1,0 +1,55 @@
+.container {
+    background: url("../assets/girls.png") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 60vh;
+    padding: 20px;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #ff7597, #ff8e8e);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #ff8e8e, #ff7597);
+}
+
+.icon {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        background: url("../assets/girlMobile.png") no-repeat center center/cover;
+    }
+}
