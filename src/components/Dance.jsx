@@ -1,5 +1,5 @@
 import styles from "../styles/Dance.module.css";
-import { FaStar } from "react-icons/fa";
+import sparklesIcon from "../assets/sparkles.svg";
 
 const Dance = () => {
     return (
@@ -10,7 +10,7 @@ const Dance = () => {
                     Be the first to know when we launch! Join our waiting list and get exclusive updates and early access to our journey.
                 </p>
                 <button className={styles.button}>
-                    <FaStar className={styles.icon} />
+                    <img src={sparklesIcon} className={styles.icon} />
                     Join the waiting list
                 </button>
             </div>

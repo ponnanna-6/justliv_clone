@@ -2,6 +2,7 @@ import styles from "../styles/Features.module.css";
 import calendarImg from "../assets/calender.png"
 import sportsImg from "../assets/sports.png"; // Replace with actual image path
 import motherChildImg from "../assets/mother_child.png"; // Replace with actual image path
+import sparklesIcon from "../assets/sparkles.svg";
 
 const Features = () => {
   const features = [
@@ -31,9 +32,9 @@ const Features = () => {
       <div className={styles.cards}>
         {features.map((feature, index) => (
           <div key={index} className={styles.card}>
-            <span className={styles.icon}>✨</span>
+            <img src={sparklesIcon} alt="Sparkles" className={styles.icon} />
             <h3>{feature.title}</h3>
-            <p>{feature.description}</p>
+            <p className={styles.description}>{feature.description}</p>
             <img src={feature.image} alt={feature.title} className={styles.image} />
           </div>
         ))}

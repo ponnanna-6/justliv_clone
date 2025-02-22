@@ -27,7 +27,17 @@
 
 .icon {
     font-size: 2rem;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 10px;
+    background: #51658E;
+    padding: 20px;
     border-radius: 10px;
+}
+
+.step h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.step p {
+    font-size: 16px;
+    color: #CCDFD6;
 }

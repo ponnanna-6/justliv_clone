@@ -1,17 +1,19 @@
 .footer {
+    display: flex;
+    flex-direction: column;
     background-color: #37476a;
     color: white;
     text-align: center;
     padding: 30px 20px;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
-}
-
-.heart {
-    color: #ffb6c1;
+    width: 120px;
 }
 
 .instagram {
@@ -21,6 +23,7 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
+    color: white;
 }
 
 .icon {
@@ -28,14 +31,17 @@
 }
 
 .links {
+    display: flex;
+    flex-direction: column;
     margin: 15px 0;
+    gap: 15px;
 }
 
 .links a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .links a:hover {
@@ -50,4 +56,5 @@
 .copyright {
     font-size: 14px;
     opacity: 0.8;
+    color: white;
 }

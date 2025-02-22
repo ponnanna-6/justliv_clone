@@ -1,5 +1,6 @@
 import styles from "../styles/Footer.module.css";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaInstagram} from "react-icons/fa";
+import { FiLinkedin } from "react-icons/fi";
 import Logo from '../assets/logo1.png'
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
                 <a href="/privacy-policy">Privacy policy</a>
                 <a href="/accessibility">Accessibility Statement</a>
             </nav>
-            <FaLinkedin className={styles.linkedinIcon} />
+            <FiLinkedin className={styles.linkedinIcon} />
             <p className={styles.copyright}>© 2024 by JustLiv</p>
         </footer>
     );
